@@ -27,11 +27,8 @@ if plots['status'] == '1':
             plotCount -= 1
 
 ''' MENU OUTPUT '''
-for token in dataV:
-    print(token)
-
 print("-- MENU --")
-print("PRESS [5] WHEN YOU OPEN MINECRAFT TO ADD MEMBER")
+print("PRESS [5] WHEN YOU OPEN MINECRAFT TO ADD MEMBER TO %i PLOTS" % (plotCount))
 print("PRESS [0] TO CANCEL")
 
 ''' KEY LISTENER '''
